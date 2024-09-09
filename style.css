@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(255, 248, 232);
+}
+
+h1, a { 
+    color: rgb(103, 70, 54);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
