@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
 * {
     background-color: white;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -14,4 +18,27 @@
     margin: auto;
     height: 100%;
     width: auto;
+}
+
+.sloganbox {
+    background-color: rgb(103, 70, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.slogan {
+    background-color: inherit;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+#splash {
+    background-color: inherit;
+    font-family: "Splash", cursive;
+    font-weight: 100;
+    font-size: 30px;
 }
