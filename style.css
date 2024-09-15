@@ -10,34 +10,27 @@
 .header {
     background-color: wheat;
     height: 200px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
 }
 
 .header .logo {
     background-color: transparent;
-    display: block;
-    margin: auto;
     height: 100%;
-    width: auto;
 }
 
-.sloganbox {
-    background-color: rgb(103, 70, 54);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-}
-
-.slogan {
+.header p {
     background-color: inherit;
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 20px;
-    letter-spacing: 0.1em;
 }
 
 #splash {
     background-color: inherit;
+    color: rgb(103, 70, 54);
     font-family: "Splash", cursive;
     font-weight: 100;
     font-size: 30px;
