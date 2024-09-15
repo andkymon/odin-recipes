@@ -26,6 +26,8 @@
 
 .header p {
     background-color: inherit;
+    font-weight: bold;
+    margin-left: 32px;
 }
 
 #splash {
@@ -38,14 +40,16 @@
 }
 
 .recipes {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
 }
 
 .recipe {
-    display: inline-block;
     width: 300px;
     height: 425px;
-    margin: 25px;
 }
 
 .recipe img {
@@ -65,5 +69,6 @@
 .recipe p {
     background-color: white;
     padding: 10px;
+    text-align: center;
 }
 
